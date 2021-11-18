@@ -18,7 +18,7 @@ export class MainPageComponent implements OnInit {
 
   print(str :string){
     const date = new Date();
-    this.messageHistory.push({nickname: "Gamer", content: str, time: date.getHours() + ":" + date.getMinutes()})
+    this.messageHistory.push({nickname: "User", content: str, time: date.getHours() + ":" + date.getMinutes()})
     console.log(str)
   }
 

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #1e1f21;
+  height: 100%;
+  .menu-container {
+    background: #26272a;
+    height: 70px;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 80%;
+      .messages {
+        height: 100%;
+        background: #17181a;
+      }
+      .message-area {
+        background: #27282a;
+        height: 100px;
+        width: 100%;
+      }
+    }
+    .users {
+      height: 80%;
+    }
+  }
+}
